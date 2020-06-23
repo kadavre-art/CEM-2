@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+@import url(../escuela/menu.css);
+@import url(../escuela/footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #aec2e9;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 150px;
+}
+
+.card-container{
+    display: flex;
+    width: 800px;
+    height: auto;
+    background: #B993D6;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header{
+    border-right: 1px solid #ddd;
+}
+
+.descripcion{
+    background: #B993D6;
+}
+
+.header, .descripcion{
+    padding: 20px;
+    text-align: center;
+}
+
+.header a{
+    position: relative;
+    display: block;
+}
+
+.header img{
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+    margin: 20px 30px;
+    transition: .2s;
+}
+
+.header a:hover img{
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, .01);
+}
+
+.header h2{
+    color: #fff;
+}
+
+.descripcion h4{
+    margin-bottom: 20px;
+    color: #fff;  
+    font-size: 27px;  
+}
+
+.descripcion{
+    position: relative;
+}
+
+.descripcion p{
+    margin: 20px 30px;
+    color: #fff;
+}
+
+.descripcion .social{
+    margin-top: 25px;
+}
+
+.descripcion .social a{
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media(max-width:900px){
+    .container{
+        margin-top: 30px;
+    }
+    .card-container{
+        display: block;  
+        width: 450px; 
+        margin-top: 150px;     
+    }
+
+    .header{
+        padding: 20px 20px 5px 20px;
+        border: none;
+    }
+
+    .descripcion{
+        padding: 5px 20px 20px 20px;
+        background: transparent;
+    }
+
+    .header h4{
+        margin: 0;
+    }
+}
+
+/*kinder-primaria-secundaria*/
+
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;    
+    padding: 0 20px;
+    margin-bottom: 200px;
+}
+
+.card-container1{
+    display: flex;
+    width: 350px;
+    height: 500px;
+    margin-left: 40px;
+    background: #B993D6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #aec2e9, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #aec2e9, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border-radius: 6px;
+    /*box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);*/
+}
+
+.descripcion1 h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.descripcion1 p{
+    width: 300px;
+    text-align: center;
+    margin: 20px 20px;
+    color: #fff;
+}
+
+.imagen img{
+    width: 350px;
+    display: flex;
+}
+
+@media(max-width:900px){
+    .container1{       
+        display: flex;
+        flex-direction: column; 
+        margin-top: 10px; 
+        width: 80%; 
+        margin-left: 30px;             
+    }
+
+    .card-container1{
+        margin-top: 80px;
+        display: flex;
+        
+    }
+}
+
+
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+@import url(../gracias/menu.css);
+@import url(../gracias/footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-size: 100vw 100vh;*/
+    background: #ececec;
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: #192c5b;
+    font-size: 80px;
+    margin-top: 208px;
+    margin-bottom: 200px;
+}
+

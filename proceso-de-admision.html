@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso de Admisión</title>
+    <link rel="stylesheet" href="css/proceso/admision.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="shortcut icon" href="favicon.ico.ico.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="contenedor1">
+            <div class="contenedor-menu">
+                <img class="logo" src="imagenes/logo.png" alt="" width="200px">
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="">Escuela</a>
+                    <a href="">Maestros/Alumnos</a>
+                    <a href="">Curriculum</a>
+                    <a href="">Actividades</a>
+                    <a class="especial" href="">¿Qué nos hace especiales?</a>
+                    <a href="">Admisión</a>
+                </nav>
+            </div>
+            <section class="textos-header">
+                <h1>PROCESO DE ADMISIÓN</h1>                
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ececec;"></path></svg></div>
+        </div>
+    </header> 
+        
+            <form action="enviar.php" method="post">
+                <h2>Proceso de Admisión</h2>
+                <input type="text" name="nombre" placeholder="Nombre del padre o tutor" required>
+                <input type="text" name="correo" placeholder="Correo" required>
+                <input type="text" name="telefono" placeholder="Teléfono" required>
+                <input type="text" name="alumno" placeholder="Nombre del alumno" required>
+                <input type="text" name="grado" placeholder="Grado al que quiere ingresar" required>
+                <textarea name="mensaje" placeholder="Su mensaje" required></textarea>
+                <input type="submit" value="Enviar datos" id="boton">
+            </form>            
+        
+            <footer>
+                <div class="contenedor-footer">
+                    <div class="contenedor-footer1">
+                        <div class="content-foo">
+                            <h4 class="icon-phone">7828217304</h4>
+                            <h4 class="icon-mail">oficina.primaria@centroeducativomexico.edu.mx</h4>
+                            <h4 class="icon-location">Av. Papantla 805 Col. Arroyo del Maíz, Poza Rica, Veracruz</h4>
+                        </div>
+                        <div class="content-foo1">
+                            <a href="">Contactanos</a>
+                            <a href="proceso-de-admision.html">Proceso de Admisión</a>
+                        </div>
+                    </div>
+                    <div class="content-so">
+                        <div class="sociales">
+                            <a class="icon-facebook" href="https://www.facebook.com/REHILETECEM"></a>
+                            <a class="icon-instagram" href="https://www.instagram.com/centroeducativomexico/?hl=es-la"></a>                        
+                        </div>
+                        <h3 class="titulo-final">&copy; Centro Educativo México 2020</h3>
+                        <h3 class="titulo-final">Diseño Web JPS pppalizada@gmail.com</h3> 
+                        <br>             
+                    </div>               
+                </div>
+                
+            </footer>
+    
+</body>
+</html>

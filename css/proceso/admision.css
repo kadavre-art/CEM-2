@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+@import url(../proceso/menu.css);
+@import url(../proceso/footer.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-size: 100vw 100vh;*/
+    background: #ececec;
+    font-family: 'Lato', sans-serif;
+}
+
+form{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    /*background: rgba(0,0,0,0.4);*/
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2{
+    color: #192c5b;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 7px;   
+    font-size: 17px;
+    border: none;
+    background: transparent;
+    border: 1px solid #192c5b;
+}
+
+input{
+    border-radius: 50px;
+}
+
+textarea{
+    min-height: 200px;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+#boton{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+    color: #000;
+    background: rgb(255, 208, 0);
+    padding: 10px;    
+}
+
+#boton:hover{
+    cursor: pointer;
+
+}
+
+@media (max-width:900px){
+    form{
+        width: 100%;
+    }
+}
